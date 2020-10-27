@@ -1,16 +1,47 @@
-## Go语言学习
+## Go-Learning
 
 ### 基础篇
 
-#### 安装
+#### 第一章: 环境搭建
 
-#### 基本命令
+##### GO版本信息
 
-#### 关键字
+**version:** `go 1.15`
 
-#### 标识符
+##### GO安装步骤
 
-#### 数据类型
+> 安装方式省略了. 
+
+##### 开发工具
+
+`GoLand`
+
+##### 项目结构
+
+##### 常用命令
+
+##### 关键字
+
+|  break   |   default   |  func  | interface | select |
+| :------: | :---------: | :----: | :-------: | :----: |
+|   case   |    defer    |   go   |    map    | struct |
+|   chan   |    else     |  goto  |  package  | switch |
+|  const   | fallthrough |   if   |   range   |  type  |
+| continue |     for     | import |  return   |  var   |
+
+##### 标识符
+
+**预定义标识符**
+
+| append | bool    | byte    | cap     | close  | complex | complex64 | complex128 | uint16  |
+| ------ | ------- | ------- | ------- | ------ | ------- | --------- | ---------- | ------- |
+| copy   | false   | float32 | float64 | imag   | int     | int8      | int16      | uint32  |
+| int32  | int64   | iota    | len     | make   | new     | nil       | panic      | uint64  |
+| print  | println | real    | recover | string | true    | uint      | uint8      | uintptr |
+
+##### 类型
+
+思维导图
 
 数值型
 
@@ -37,6 +68,10 @@
 解释字符串
 
 转义字符
+
+流程控制
+
+表达式和语句
 
 时间日期
 
