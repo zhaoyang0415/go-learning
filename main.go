@@ -2,15 +2,14 @@ package main
 
 import "fmt"
 
+type String string
+type MyString String
+
 func main() {
-	v:=5
-L1:
-	goto L2
-
-	fmt.Println(v)
-
-	goto L1
-	fmt.Println("==================")
-L2:
-		fmt.Println("hello world")
+	var s MyString = "hello"
+	ss := String(s)
+	sss := string(s)
+	fmt.Printf("%T\n", s)
+	fmt.Printf("%T\n", ss)
+	fmt.Printf("%T\n", sss)
 }
